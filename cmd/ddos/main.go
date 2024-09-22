@@ -7,6 +7,4 @@ func main() {
 	app := app.NewApp()
 
 	app.Run()
-
-	panic("implement me")
 }
