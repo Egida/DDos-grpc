@@ -30,7 +30,7 @@ func (ga *GrpcApp) MustRun() {
 	}
 }
 
-// сначала создаещб листенер tcp пакетов и порта и затем добавляешь его на прослушку в grpc сервер
+
 func (ga *GrpcApp) Run() error {
 
 	l, err := net.Listen("tcp", ga.port)
